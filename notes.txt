@@ -1,1 +1,82 @@
 developing the ecommerce with mern stack 
+
+writing the node services 
+
+> create the folder server
+> server 
+
+> and switch to server folder 
+> cd server 
+
+> then download the node modules 
+
+
+step 1.
+	create the directory (folder)
+
+	Ex.
+		 server
+
+
+step 2.
+	switch to server directory
+
+	> cd server
+
+
+step 3.
+	download node modules
+
+	1) bcryptjs
+		- used to encrypt the passwords
+
+		- encrypted passwords only we should store in database.
+
+	2) express
+
+		- used to develop the rest services.
+
+		Ex.
+			GET
+			POST
+			PUT
+			DELETE
+			----
+			----
+			----
+
+	3) express-async-handler
+
+		- used to handle the rest api calls asynchronously.
+
+	4) body-parser
+
+		- used to receive the data from client application.
+
+	5) cors
+
+		- cors module used to enable the cors policy.
+
+	6) jsonwebtoken
+
+		- used to generate the tokens.
+
+		- in general, we will use these tokens for "token based authentication"
+
+	7) mongodb
+
+		 - mongodb module used to connect to "mongodb" database without "schema".
+
+	8) mongoose
+
+		- mongoose library used to connect to mongodb database with schema (rules and regulations)
+
+	9) dotenv
+
+		- used to configure the environmental variables related to nodejs server
+
+
+	> 
+    
+
+
