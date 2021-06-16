@@ -1,7 +1,7 @@
  interface Product {
     "_id" :string;
     "name" :  string;
-    "brand" : number;
+    "brand" : string;
     "price" : number;
     "qty": number;
     "countInStock" : number;

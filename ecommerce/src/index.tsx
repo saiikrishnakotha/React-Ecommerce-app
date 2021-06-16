@@ -7,12 +7,15 @@ import thunk from "redux-thunk";
 import ProductReducer from "./reducer/ProductReducer"
 import {createStore,applyMiddleware,combineReducers} from "redux"
 import {Provider} from "react-redux";
+import detailReducer from './reducer/DetailReducer';
+import CartReducer from './reducer/CartReducer';
+
 
 const rootResucer = combineReducers({
-  products : ProductReducer
+  products : ProductReducer,
+  details : detailReducer,
+  cart : CartReducer
 });
-
-
 const store = createStore(rootResucer,applyMiddleware(thunk));
 
 ReactDOM.render(
